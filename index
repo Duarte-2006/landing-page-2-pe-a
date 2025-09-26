@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Cósmico - El impulso para tu universo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Café Cósmico</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li> <li><a href="#contacto">Contacto</a></li> </ul>
+        </nav>
+        <button id="cambiarColorBtn">Modo Estelar ✨</button>
+    </header>
+
+    <main id="inicio">
+        <section class="hero">
+            <h1>Despierta tu Potencial Galáctico 🚀</h1>
+            <p>Café Cósmico es la mezcla premium que te da la energía para conquistar tu día.</p>
+            <img src="cafe.png" alt="Paquete de Café Cósmico" class="cafe-img">
+            <a href="#contacto" class="cta-button">¡Pide el Tuyo Hoy!</a>
+        </section>
+    </main>
+
+    <section id="beneficios" class="content-section">
+        <h2>¿Por qué Café Cósmico?</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Sabor de otro Mundo</h3>
+                <p>Granos cultivados en alturas extremas para un perfil de sabor inigualable.</p>
+            </div>
+            <div class="card">
+                <h3>Energía Duradera</h3>
+                <p>Sin bajones, solo enfoque constante para tus proyectos más ambiciosos.</p>
+            </div>
+            <div class="card">
+                <h3>100% Sostenible</h3>
+                <p>Comprometidos con el planeta. Un sorbo que cuida tu mundo y el nuestro.</p>
+            </div>
+        </div>
+        <div id="infoOculta" class="hidden">
+            <p>¡Edición Limitada! El primer lote incluye un sticker holográfico exclusivo.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="content-section">
+        <h2>Únete a la Tripulación</h2>
+        <p>Déjanos tus datos para recibir ofertas exclusivas y probar nuestra mezcla antes que nadie.</p>
+
+        <form id="registroForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <button type="submit">Enviar al Espacio</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Café Cósmico. Todos los derechos reservados.</p>
+        <p>Diseñado con HTML, CSS y JS para la recuperación de Informática. <a href="https://www.google.com" target="_blank">Enlace de Prueba Externo</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
